@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.css */
+
+/* Task List Component */
+.task-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.task-list-header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.task-list-item {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Add Task Component */
+.add-task-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.add-task-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.add-task-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-task-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.add-task-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-task-form button:hover {
+  background-color: #0069d9;
+}
